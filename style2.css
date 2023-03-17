@@ -1,0 +1,192 @@
+.blure{
+filter: blur(1px);
+}
+.head{
+    position: relative;
+    left: 80px;
+    }
+    .list{
+        color: rgb(53, 146, 239);
+    }
+    .parant{
+        display: flex;
+        background-color: #80808087;
+       
+        height: 660px;
+       
+    position: relative;
+        
+    
+    
+    }
+    .plus{
+        color: white;
+        background-color: blue;
+        border-radius: 50%;
+       
+    }
+    
+    #add{
+        position: absolute;
+        top: 15px;
+        right: 150px;
+     
+    
+    }
+    
+    .child{
+        color: deepskyblue;
+        background-color: white;
+        width: 250px;
+        height: 250px;
+        border-radius: 5px;
+       
+        
+        padding: 20px 0 0 0;
+    
+    }
+    .checkbox1{
+         color: rgb(173, 173, 173);
+         text-decoration: line-through;
+         line-height: 2;
+    }
+    .checkbox2{
+        color: black;
+        line-height: 2;
+    }
+    
+    #child1{
+        position: absolute;
+        left: 80px;
+        top : 60px;
+    
+    }
+    
+    #child2{
+        position: absolute;
+        left: 400px;
+        top: 60px;
+    }
+    
+    #child3{
+         position:absolute;
+         left: 700px;
+         top: 60px;
+    }
+    
+    #child4{
+         position:absolute;
+        top: 370px;
+       left: 80px;
+       
+    }
+    #child5{
+         position:absolute;
+      
+         top: 370px;
+         left: 400px;
+    
+    }
+
+.continer{
+    
+    display: flex;
+    /* height: 600px; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  
+    flex-flow: row wrap;
+ 
+   
+}
+
+
+
+.box{
+    border-radius: 5px;
+    height: 170px;
+    width: 300px;
+    background-color: #cdcdcd;;
+    color: blue;
+    position: absolute;
+    top: 240px;
+}
+.learn{
+    border: 1px solid #808080ab;
+    width: 80%;
+    height: 20px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+.add{
+    color: white;
+    background-color: #0340ed;
+    border-radius: 3px;
+    top: 365px;
+position: absolute;
+    height: 30px;
+    
+}
+.fas{
+color: black;
+    position: relative;
+    top: -495px;
+    left: 800px;
+    font-size: 20px;
+    font-weight: 200;
+ 
+
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .parant{
+        flex-direction: column;
+        position: relative;
+        background-color: rgb(30, 26, 26);
+         height: 100%;
+    }
+    .child{
+        width: 250px;
+        height: 200px;
+        background-color:  #e5dfef;;
+    }
+  #child1{
+    position: absolute;
+    left: 50px;
+    top: 60px;
+
+  }
+  #child2{
+    position: absolute;
+    left: 50px;
+    top: 300px;
+        
+
+    }
+
+
+#child3{
+  position: absolute;
+  left: 50px;
+  top: 540px;
+
+  
+}
+#child4{
+  position: absolute;
+  left: 50px;
+  top: 780px;
+ 
+}
+
+#child5{
+  position: absolute;
+  left: 50px;
+  top: 1020px;
+
+}
+
+}
+  
